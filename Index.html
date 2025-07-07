@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="heading">Welcome to My Colorful Page!</h1>
+    <p id="description">Click the buttons below to interact with this page using JavaScript.</p>
+  </header>
+
+  <main>
+    <div class="button-group">
+      <button onclick="changeContent()">🎨 Change Text & Style</button>
+      <button onclick="toggleBox()">🧱 Add/Remove Box</button>
+    </div>
+
+    <section id="features">
+      <h2>Features:</h2>
+      <ul>
+        <li>Dynamically update content</li>
+        <li>Modify styles with JavaScript</li>
+        <li>Add or remove visual elements</li>
+      </ul>
+    </section>
+
+    <div id="container"></div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Dennis</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
